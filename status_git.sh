@@ -7,7 +7,7 @@ for foldername in */; do \
   lbranches=$(git branch -a)
   echo "======= Status for $foldername --- branch: $branch  =======" && \
   git status
-  echo "------- local and remote branches  --------" && \
+  echo "------- local branches  --------" && \
   echo "$lbranches"
   echo ""
   cd $BASEDIR
